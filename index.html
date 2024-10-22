@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тест</title>
+  <meta name="description" content="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse corporis voluptatem provident beatae fuga commodi voluptate accusantium quasi fugit officia alias culpa excepturi assumenda cumque omnis sed, harum odit praesentium.
+">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+  <script src="scripts/main.js" type="module" defer></script>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body class="page">
+
+  <header class="header">
+    <div class="container">
+      <nav class="header__nav">
+        <a class="header__logo logo" href="#">
+          <img src="images/Logo.svg" alt="Логотип компании Теремъ" width="101" height="57">
+        </a>
+        <div class="header__wrap-buttons">
+          <button class="header__button header__button--one button--white button" type="button">Кнопка 1</button>
+          <button class="header__button header__button--two button--red button" type="button">Кнопка 2</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <main class="main">
+      <section class="promo">
+        <ul class="promo-list list-reset">
+          <li class="promo-item promo-item--hero">
+            <h1 class="promo__title title">Добро пожаловать в&nbsp;Теремъ</h1>
+          </li>
+          <li class="promo-item promo-item--img">
+            <picture>
+              <source type="image/jpeg" width="870" height="420" media="(min-width: 500px)" srcset="images/banner.jpg">
+              <img src="images/banner-mobile.jpg" alt="Коттедж из серии 'Добрыня'" width="343" height="343">
+            </picture>
+          </li>
+          <li class="promo-item promo-item--desktop">
+            <p class="promo-item__descr descr">Одноэтажные коттеджи серии «Добрыня» солидные, комфортные, с удобными
+              планировками. Идеальный вариант как для семей с
+              детьми, так и для пожилых людей: отсутствие второго этажа и лестницы делает его удобным и безопасным.</p>
+          </li>
+          <li class="promo-item promo-item--collection">
+            <p class="promo-item__descr descr">Коллекция домов премиум-класса&nbsp;от
+              &laquo;Теремъ&raquo;&nbsp;– масштабные загородные дома, обеспечивающие высочайший уровень комфорта.
+              Современные коттеджи &laquo;Премиум&raquo; возводятся&nbsp;из высококачественных материалов.</p>
+          </li>
+          <li class="promo-item promo-item--link">
+            <a class="promo-item__link link" href="#">Смотреть каталог</a>
+          </li>
+          <li class="promo-item promo-item--red">
+            <p class="promo-item__descr descr">Легкие, небольшие, классические дачные дома. Строятся из бруса и по
+              каркасной технологии. По вашему желанию они могут быть адаптированы и для зимнего проживания.</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <a class="footer__logo logo link" href="#">
+        <img src="images/Logo.svg" alt="Логотип компании Теремъ" width="101" height="57">
+      </a>
+    </footer>
+
+    <div class="modal-container modal-container--close">
+      <div class="modal">
+        <h2 class="modal-title title">Привет, мир</h2>
+        <button class="modal__close button button--white" type="button">
+          Готово
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
